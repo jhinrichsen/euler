@@ -1,0 +1,32 @@
+{
+  "name": "euler",
+  "version": "0.1.0",
+  "description": "Euler solutions in ES2015",
+  "main": "euler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jhinrichsen/euler.git"
+  },
+  "keywords": [
+    "Project",
+    "Euler",
+    "solutions",
+    "in",
+    "ES2015",
+    "ES6",
+    "JavaScript",
+    "ECMAScript"
+  ],
+  "author": "Jochen Hinrichsen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jhinrichsen/euler/issues"
+  },
+  "homepage": "https://github.com/jhinrichsen/euler#readme",
+  "dependencies": {
+    "immutable": "^3.7.6"
+  }
+}
