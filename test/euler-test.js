@@ -1,8 +1,10 @@
+/* global describe, it */
+
 const assert = require('assert')
 
 const Euler = require('../')
 
-describe('Euler', function() {
+describe('Euler', function () {
   describe('#euler1()', function () {
     it('solves Project Euler #1', function () {
       assert.equal(233168, Euler.euler1())

@@ -4,6 +4,7 @@
   "description": "Euler solutions in ES2015",
   "main": "euler.js",
   "scripts": {
+    "lint": "standard",
     "test": "./node_modules/.bin/mocha"
   },
   "repository": {
