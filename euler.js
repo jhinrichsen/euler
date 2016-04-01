@@ -24,6 +24,17 @@ const euler19 = () => R.xprod(I.Range(1901, 2001).toArray(),
   .filter((date) => date.getDay() === 0)
   .reduce((r) => r + 1, 0)
 
+// :: -> Number
+const euler48 = () => I.Range(1, 1001)
+  .map((n) => {
+    let p = new BN(n)
+    return p.pow(p)
+  })
+  .reduce((r, n) => r.add(n), new BN(0))
+  .toString(10)
+  .slice(-10)
+
 exports.euler1 = euler1
 exports.euler16 = euler16
 exports.euler19 = euler19
+exports.euler48 = euler48

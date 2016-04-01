@@ -20,4 +20,9 @@ describe('Euler', function () {
       assert.equal(171, Euler.euler19())
     })
   })
+  describe('#euler48()', function () {
+    it('solves Project Euler #48', function () {
+      assert.equal('9110846700', Euler.euler48())
+    })
+  })
 })
