@@ -1,0 +1,17 @@
+= Project Euler Solutions
+
+Yet another Euler - this time in Javascript
+
+Features all 2016 Javascript/ Node.js buzzwords:
+
+- ES6
+- ES2015
+- functional
+- immutable data
+- lazy sequences
+
+Solved so far:
+
+- #1
+- #16
+- #19
