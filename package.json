@@ -29,7 +29,8 @@
   "homepage": "https://github.com/jhinrichsen/euler#readme",
   "dependencies": {
     "bn.js": "^4.11.1",
-    "immutable": "^3.7.6"
+    "immutable": "^3.7.6",
+    "ramda": "^0.20.1"
   },
   "devDependencies": {
     "mocha": "^2.4.5"
