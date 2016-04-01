@@ -1,5 +1,7 @@
 = Project Euler Solutions
 
+image::https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat[Standard, link=https://github.com/feross/standard]
+
 Yet another Euler - this time in Javascript
 
 Features all 2016 Javascript/ Node.js buzzwords:
