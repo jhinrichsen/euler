@@ -27,7 +27,7 @@
   },
   "homepage": "https://github.com/jhinrichsen/euler#readme",
   "dependencies": {
-    "bignumber.js": "^2.3.0",
+    "bn.js": "^4.11.1",
     "immutable": "^3.7.6"
   }
 }
