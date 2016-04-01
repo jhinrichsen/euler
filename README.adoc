@@ -1,6 +1,6 @@
 = Project Euler Solutions
 
-image::https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat[Standard, link=https://github.com/feross/standard]
+image::https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat[Standard, link=https://github.com/feross/standard] image::https://travis-ci.org/jhinrichsen/euler.svg?branch=master[Travis build status]
 
 Yet another Euler - this time in Javascript
 
