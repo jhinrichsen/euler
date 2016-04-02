@@ -15,8 +15,9 @@ Features all 2016 Javascript/ Node.js buzzwords:
 
 Solved so far:
 
-- #1
-- #16
-- #19
-- #20
-- #48
+- #1 (3 lines)
+- #16 (5 lines)
+- #19 (5 lines)
+- #20 (3 + 5 lines)
+- #48 (8 lines)
+- #92 (4 + 7 lines)
