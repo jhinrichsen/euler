@@ -24,6 +24,18 @@ const euler19 = () => R.xprod(I.Range(1901, 2001).toArray(),
   .filter((date) => date.getDay() === 0)
   .reduce((r) => r + 1, 0)
 
+// Number -> BN
+const fac = (n) => I.Range(1, n + 1)
+  .map((n) => new BN(n))
+  .reduce ((r, n) => r.mul(n), new BN(1))
+
+// :: Number -> Number
+const euler20 = (n) => fac(n)
+  .toString(10)
+  .split('')
+  .map((c) => parseInt(c, 10))
+  .reduce((r, n) => r + n)
+
 // :: -> Number
 const euler48 = () => I.Range(1, 1001)
   .map((n) => {
@@ -37,4 +49,5 @@ const euler48 = () => I.Range(1, 1001)
 exports.euler1 = euler1
 exports.euler16 = euler16
 exports.euler19 = euler19
+exports.euler20 = euler20
 exports.euler48 = euler48
