@@ -1,14 +1,18 @@
 = Project Euler Solutions
 
-image::https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat[Standard, link=https://github.com/feross/standard]
-image::https://travis-ci.org/jhinrichsen/euler.svg?branch=master[Travis build status]
+image::https://nodei.co/npm/euler.png[alt="NPM",link="https://nodei.co/npm/euler/"]
+
+image::https://img.shields.io/badge/code%20style-standard-brightgreen.svg[alt="Standard",link="https://github.com/feross/standard"]
+image:https://img.shields.io/travis/jhinrichsen/euler.svg[alt="Travis build status",link="https://travis-ci.org/jhinrichsen/euler"]
+image:https://www.bithound.io/github/jhinrichsen/euler/badges/score.svg[alt="bithound",link="https://www.bithound.io/github/jhinrichsen/euler"]
+image:https://img.shields.io/badge/ES-2015-brightgreen.svg[alt="ES2015",link="http://www.ecma-international.org/ecma-262/6.0/index.html"]
+image:https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg[alt="semantic-release",link="https://github.com/semantic-release/semantic-release"]
 
 Yet another Euler - this time in Javascript
 
 Features all 2016 Javascript/ Node.js buzzwords:
 
-- ES6
-- ES2015
+- ES2015 (formerly ES6)
 - functional
 - immutable data
 - lazy sequences
