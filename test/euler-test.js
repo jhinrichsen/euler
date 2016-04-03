@@ -7,7 +7,7 @@ const Euler = require('../')
 describe('Euler', function () {
   // Euler92 takes minutes
   this.timeout(1000000)
-  
+
   describe('#euler1()', function () {
     it('solves Project Euler #1', function () {
       assert.equal(233168, Euler.euler1())
@@ -60,4 +60,3 @@ describe('Euler', function () {
     })
   })
 })
-

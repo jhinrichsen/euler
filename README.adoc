@@ -25,3 +25,19 @@ Solved so far:
 - #20 (3 + 5 lines)
 - #48 (8 lines)
 - #92 (4 + 7 lines)
+
+= Alternative implementations
+
+== Euler #92
+
+[source,javascript]
+----
+// :: Number -> Number
+// Slow: takes about 90 seconds on a 2013 MacBook Pro
+const euler92_ = (n) => I.Range(1, n)
+  .map((n) => I.Seq(squareDigitChain(n)).last())
+  // 10 % faster, but mutation going on:
+  // .map((n) => [...squareDigitChain(n)].pop())
+  .filter((n) => n === 89)
+  .count()
+----

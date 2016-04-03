@@ -27,7 +27,7 @@ const euler19 = () => R.xprod(I.Range(1901, 2001).toArray(),
 // Number -> BN
 const fac = (n) => I.Range(1, n + 1)
   .map((n) => new BN(n))
-  .reduce ((r, n) => r.mul(n), new BN(1))
+  .reduce((r, n) => r.mul(n), new BN(1))
 
 // :: Number -> Number
 const euler20 = (n) => fac(n)
@@ -61,15 +61,6 @@ function * squareDigitChain (n) {
   } while (n !== 1 && n !== 89)
   yield n
 }
-
-// :: Number -> Number
-// Slow: takes about 90 seconds on a 2013 MacBook Pro
-const euler92_ = (n) => I.Range(1, n)
-  .map((n) => I.Seq(squareDigitChain(n)).last())
-  // 10 % faster, but mutation going on:
-  // .map((n) => [...squareDigitChain(n)].pop())
-  .filter((n) => n === 89)
-  .count()
 
 // :: Number -> boolean
 // Highly specialized, but still takes 60s
