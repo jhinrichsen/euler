@@ -1,7 +1,12 @@
 = Project Euler Solutions
 
+image::https://nodei.co/npm/sense-hat-matrix.png[alt="NPM",link="https://nodei.co/npm/sense-hat-matrix/"]
+
 image::https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat[Standard, link=https://github.com/feross/standard]
-image::https://travis-ci.org/jhinrichsen/euler.svg?branch=master[Travis build status]
+image:https://img.shields.io/badge/ES-2015-brightgreen.svg[alt="ES2015",link="http://www.ecma-international.org/ecma-262/6.0/index.html"]
+image:https://img.shields.io/travis/jhinrichsen/euler.svg[alt="Travis build status",link="https://travis-ci.org/jhinrichsen/euler"]
+image:https://www.bithound.io/github/jhinrichsen/euler/badges/score.svg[alt="bithound",link="https://www.bithound.io/github/jhinrichsen/euler"]
+image:https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg?style=flat-square[alt="semantic-release",link="https://github.com/semantic-release/semantic-release"]
 
 Yet another Euler - this time in Javascript
 
